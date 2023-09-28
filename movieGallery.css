@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script:wght@500&family=Fuggles&family=Open+Sans&family=Oswald:wght@300;400&family=Pacifico&family=Roboto:wght@900&family=Skranji&family=Teko:wght@500&display=swap');
+
+h1 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px 8px #265364;
+
+}
+
+body{
+    background-image: url("./images/harrypotterbg.jpg");
+    background-size: cover;
+}
+
+.parent{
+    position: relative;
+}
+
+.c{
+    height: 600px;
+    width: 250px;
+    background-color: rgba(56, 86, 131, 0.473);
+    border: white 5px ;
+    border-style: dotted;
+    margin-left: 20px;
+    position: absolute;
+    left: 50px;
+    text-shadow: 2px 2px 2px #ffffff;
+}
+
+.c2{
+    left: 350px;
+}
+.c3{
+    left: 650px;
+}
+.c4{
+    left: 950px;
+}
+img{
+    width: 100%;
+}
+.i2{
+    width: 100%;
+    height: 370px;
+}
+
+h2{
+    font-size: medium;
+    color: #bac1ee;
+    text-align: center;
+    margin-top: -5px;
+    text-shadow: 2px 2px 2px #000000;
+    font-family: 'Dancing Script', cursive;
+}
+p{
+    font-size: medium;
+    color: #c9cde4;
+    text-align: center;
+    margin-top: -5px;
+    text-shadow: 2px 2px 1px #111111;
+    font-family: 'Dancing Script', cursive;
+}
+
+.child{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    left: 70px;
+    bottom: 20px;
+    border: #265364 3px solid;
+}
+
+.child2{
+    position: relative;
+    top: -15px;
+    left: 11px;
+}
+
+h3{
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px 1px #5c5a5a;
+    color: rgb(0, 0, 0);
+
+}
